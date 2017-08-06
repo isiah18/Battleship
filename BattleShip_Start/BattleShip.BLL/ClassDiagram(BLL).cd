@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="GameLogic Classes">
+    <Position X="0.5" Y="0.5" Height="0.323" Width="3.492" />
+  </Comment>
+  <Comment CommentText="Models Classe">
+    <Position X="4.76" Y="0.5" Height="0.354" Width="1.502" />
+  </Comment>
+  <Comment CommentText="Requests Classes">
+    <Position X="7" Y="0.5" Height="0.323" Width="3.492" />
+  </Comment>
+  <Comment CommentText="Response Class">
+    <Position X="10.99" Y="0.5" Height="0.323" Width="1.513" />
+  </Comment>
+  <Comment CommentText="Ships Class">
+    <Position X="13.448" Y="0.542" Height="0.323" Width="1.513" />
+  </Comment>
+  <Class Name="BattleShip.BLL.GameLogic.Board">
+    <Position X="0.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAABAAgAAAAAAAAAAACgBAAAEICAgCBAAEAA=</HashCode>
+      <FileName>GameLogic\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.GameLogic.ShipCreator">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameLogic\ShipCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Models.Player">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Requests.Coordinate">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAgAIAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Requests.PlaceShipRequest">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\PlaceShipRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Responses.FireShotResponse">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Responses\FireShotResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Ships.Ship">
+    <Position X="13.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEQAAAAIAABAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ships\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BattleShip.BLL.Requests.ShipDirection">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Requests\ShipDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShipPlacement">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Responses\ShipPlacement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShotHistory">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Responses\ShotHistory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShotStatus">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAAAAAAAAIAAAAAAACAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Responses\ShotStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.BLL.Ships.ShipType">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAEAAAAAAAAAAAAAIAAAAIAAAAAAAIA=</HashCode>
+      <FileName>Ships\ShipType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
